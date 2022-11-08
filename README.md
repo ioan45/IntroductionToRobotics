@@ -59,3 +59,32 @@ Building the traffic lights for a crosswalk. Two LEDs are used to represent the 
 <img src="/homework_2/h2_photo.jpg?raw=true" width=65% height=65% />
 
 </details>
+
+<details>
+
+<summary>
+<b>
+Homework 3 (7-Segment display drawing)
+</b>
+</summary>
+<br>
+
+#### Task:
+
+Switching the state (On/Off) of each segment individually. The selection of the segment for change is done by moving between segments using a joystick. The movement between segments is natural (meaning they can jump from the current position only to neighbours, but without passing through "walls"). There are 2 states which the system goes through:
+  * State 1 (default, but also initiated after a button press in State 2): Current position blinking. Can use the joystick to move from one position to neighbours. Short pressing the button toggles state 2. Long pressing the button in state 1 resets the entire display by turning all the segments OFF and moving the current position to the decimal point.
+  * State 2 (initiated after a button press in State 1): The current segment stops blinking, adopting the state of the segment before selection (On or Off). Toggling the Y axis changes the segment state from ON to OFF or from OFF to ON. Clicking the joystick saves the segment state and exit back to state 1.
+
+#### Components:
+  * Arduino Uno microcontroller board
+  * Breadboard 
+  * 7-segment display
+  * Joystick
+  * Resistors and wires (per logic)
+  
+#### The showcase video can be found [here](https://youtu.be/0XTXCiz0oZc).
+
+#### Photo of the setup:
+<img src="/homework_3/h3_photo.jpg?raw=true" width=65% height=65% />
+
+</details>
