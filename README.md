@@ -88,3 +88,31 @@ Switching the state (On/Off) of each segment individually. The selection of the 
 <img src="/homework_3/h3_photo.jpg?raw=true" width=65% height=65% />
 
 </details>
+
+<details>
+
+<summary>
+<b>
+Homework 4 (4 Digit 7-Segment display and shift register)
+</b>
+</summary>
+<br>
+
+#### Task:
+
+One joystick axis is used to move through the 4 digit 7 segment display digits. The blinking DP LED shows the current position. When pressing the joystick button, the current position becomes locked in (DP LED stops blinking) and the other joystick axis is used to increment or decrement the digit shown. The digits shown are represented in hex (from 0 to F). Pressing the button again will save the chosen digit and return to the display digit selection phase. When long pressing the button while in the selection phase, the display will reset showing '0' on all digits and the current position is set to the rightmost digit. 
+
+#### Components:
+  * Arduino Uno microcontroller board
+  * Breadboard 
+  * 4 Digit 7-segment display
+  * 74hc595 shift register
+  * Joystick
+  * Resistors and wires
+  
+#### The showcase video can be found [here](https://youtu.be/PeTJ198FaDI).
+
+#### Photo of the setup:
+<img src="/homework_4/h4_photo.jpg?raw=true" width=65% height=65% />
+
+</details>
