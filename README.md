@@ -116,3 +116,33 @@ One joystick axis is used to move through the 4 digit 7 segment display digits. 
 <img src="/homework_4/h4_photo.jpg?raw=true" width=65% height=65% />
 
 </details>
+
+<details>
+
+<summary>
+<b>
+Homework 5 (LCD Menu and mini game)
+</b>
+</summary>
+<br>
+
+#### Task:
+
+A game menu on the LCD. When powering up the system, a greeting message is shown for a few seconds. The menu contains the following categories: Play (starts the game), How to play (instructions), Settings, Highscore values, About section (author details and game title). When it comes to settings, it provides a name changing option, difficulty choosing, contrast control of the LCD, matrix and LCD brightness control and mute/unmute app sounds. As for the minigame, it's about a point which tries to 'eat food' spawned randomly on the map (which is the 8x8 LED matrix). Each food eaten increases score by 1. Score is shown on the LCD. To return to the menu, no action must be made for a few seconds.
+
+#### Components:
+  * Arduino Uno microcontroller board
+  * Breadboard
+  * LCD
+  * MAX7219 Driver
+  * 8x8 LED Matrix 
+  * Joystick
+  * Resistors and wires
+  
+#### The showcase video can be found [here](https://youtu.be/y6vWukHTHaw).
+
+#### Photo of the setup:
+<img src="/homework_5/h5_photo.jpg?raw=true" width=65% height=65% />
+
+</details>
+
